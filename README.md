@@ -31,7 +31,8 @@
 4. 添加后端
 5. 完善404页面
 6. 添加留言板
-7. 添加还有其他我没想到的功能
+7. 完善页脚功能，一言，统计时间，旅行者一号距离
+8. 添加还有其他我没想到的功能
 ## 预览
 ![PC主页截图](https://blog.gardenwalk.moe/wp-content/uploads/1772169788-pcdemo.png)
 ![移动端主页截图](https://blog.gardenwalk.moe/wp-content/uploads/1772169785-mobiledemo.jpg)
