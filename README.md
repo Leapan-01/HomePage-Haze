@@ -29,6 +29,20 @@
 2. 鼠标样式修改
 3. 使用相同的风格添加“友链”等其他子页面
 4. 添加后端
-
+5. 完善404页面
+6. 添加留言板
+7. 添加还有其他我没想到的功能
+## 预览
+![PC主页截图](https://blog.gardenwalk.moe/wp-content/uploads/1772169788-pcdemo.png)
+![移动端主页截图](https://blog.gardenwalk.moe/wp-content/uploads/1772169785-mobiledemo.jpg)
+## 自定义
+代码还算能看懂，自己去index.html和style.css找去吧つ﹏⊂
+## 依赖
+- [Font Awesome 6](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css)（图标）
+- [Google Fonts](https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap)（思源宋体）
+## 许可证
+GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
+## 贡献
+如果你觉得哪里可以改进，欢迎提 Issue 或 PR，或者直接使用邮箱联系我：lp-gardenwalk(at)outlook(dot)com  
 
 
