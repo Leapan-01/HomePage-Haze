@@ -35,7 +35,7 @@
 ## 预览
 ![PC主页截图](https://blog.gardenwalk.moe/wp-content/uploads/1772169788-pcdemo.png)
 ![移动端主页截图](https://blog.gardenwalk.moe/wp-content/uploads/1772169785-mobiledemo.jpg)
-## 自定义
+## 自定义部分
 代码还算能看懂，自己去index.html和style.css找去吧つ﹏⊂
 ## 依赖
 - [Font Awesome 6](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css)（图标）
