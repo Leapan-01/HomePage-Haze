@@ -1,4 +1,4 @@
-# HomePage-Haze（微岚）
+# HomePage-Haze（微岚主页）
 一个简洁、美观、具有特色功能的纯静态个人主页。使用HTML+CSS+JavaScript开发。
 ### 阅读代码前提示
 在本项目中，可能会有以下现象，包括但不限于：
