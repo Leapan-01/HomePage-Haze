@@ -4,7 +4,7 @@
         if (!card) return;
 
         const MAX_ANGLE = 6;         
-        const PERSPECTIVE = 600;      
+        const PERSPECTIVE = 500;      
         const EASING = 0.1;            
 
         let rafId = null;
