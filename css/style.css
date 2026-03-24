@@ -25,7 +25,7 @@ body {
 }
 
 .bg.bigger {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 /* 遮罩层 */
@@ -161,7 +161,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     overflow: visible;            
     text-align: center; 
-    /* 主卡片背景渐变*/
+    /* 主卡片毛玻璃背景渐变*/
     background-image: linear-gradient(to top right, #a1c4fd4D, #c2e9fb4D);
     user-select: none;
 }
@@ -170,7 +170,7 @@ body {
     position: absolute;
     top: -50px;       
     left: 50%;
-    transform: translateX(-50%);/* 偏移上5成の必须 */
+    transform: translateX(-50%);/* 偏移向上5成 */
     transition: transform 1.0s ease;
     width: 100px;
     height: 100px;
@@ -243,7 +243,7 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
 }
 
 
-/*底部链接按钮部分*/
+/*主卡片底部链接按钮部分*/
 .footer-links {
     display: flex;
     width: 100%;
@@ -286,7 +286,6 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
 .footer-btn:hover {
     background: rgba(255, 255, 255, 0.15);
     color: rgb(32, 32, 32);
-    ;
 }
 /*按下浮雕*/
 .footer-btn:active {
@@ -334,8 +333,7 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 15.6px;
-    font-size: 14px;
+    margin: 0px 0px 0px;
 }
 
 .copyright-links .travel-link {
