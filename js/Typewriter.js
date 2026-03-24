@@ -12,5 +12,5 @@ function startTypewriter() {
             } else {
                 clearInterval(timer);
             }
-        }, 150);
+        }, 150); //打字速度
     }

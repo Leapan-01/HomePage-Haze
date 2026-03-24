@@ -3,9 +3,9 @@
         const card = document.getElementById('MainCard');
         if (!card) return;
 
-        const MAX_ANGLE = 6;         
-        const PERSPECTIVE = 500;      
-        const EASING = 0.1;            
+        const MAX_ANGLE = 6;       //最大倾斜角度 正比关系      
+        const PERSPECTIVE = 450;   //透视距离 反比关系    
+        const EASING = 0.1;        //缓动效果 决定跟随鼠标速度   
 
         let rafId = null;
         let targetX = 0, targetY = 0;
@@ -62,7 +62,7 @@
         }, { passive: true }); 
 
         card.addEventListener('touchmove', (e) => {
-            e.preventDefault(); 
+            e.preventDefault(); //禁止滚动
             const touch = e.touches[0];
             if (touch) handleMouseMove(touch.clientX, touch.clientY);
         }, { passive: false });

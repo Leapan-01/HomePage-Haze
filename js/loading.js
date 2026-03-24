@@ -3,10 +3,9 @@ const bg = document.getElementById('bg');
 const loaderContainer = document.getElementById('loaderContainer');
 const animationStartTime = performance.now();
 
-// 至少显示1秒，这样更自然一些
 window.addEventListener('load', function () {
     const elapsed = performance.now() - animationStartTime;
-    const minDisplayTime = 1000; 
+    const minDisplayTime = 1000; // 至少显示1000ms，800-2000ms最好
     if (elapsed < minDisplayTime) {
         setTimeout(startExitAnimation, minDisplayTime - elapsed);
     } else {
