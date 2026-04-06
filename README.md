@@ -44,6 +44,8 @@
 ## 许可证
 GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 ## 贡献
-如果你觉得哪里可以改进，欢迎提 Issue 或 PR，或者直接使用邮箱联系我：lp-gardenwalk(at)outlook(dot)com  
+如果你觉得哪里可以改进，欢迎提 Issue 或 PR，或者直接使用邮箱联系我：lp-gardenwalk(at)outlook(dot)com
+## 补充
+点点Star谢谢喵(/▽＼)
 
 
