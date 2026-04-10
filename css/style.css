@@ -148,7 +148,6 @@ body {
     flex-direction: column;      
     align-items: center;
     position: relative;
-    touch-action: none;
     width: 90%;              
     max-width: 330px;        
     min-width: 260px;
