@@ -1,20 +1,5 @@
 # HomePage-Haze（微岚主页）
 一个简洁、美观、具有特色功能的纯静态个人主页。使用HTML+CSS+JavaScript开发。
-### 阅读代码前提示
-在本项目中，可能会有以下现象，包括但不限于：
-
-- 书写潦草
-- 变量名随意
-- 注释奇怪
-- 东拼西凑
-- 吃百家饭
-- 风格不同
-- 逻辑混乱
-- 难以直视
-
-等诸多情况。
-
-当然，如果有任何建议或指正，也欢迎提Issue或PR，我会虚心接受（但可能改不动或者根本没时间改o_o ....）。
 ## 特色功能
 1. 方块加载动画以及遮罩层拉扯效果
 2. 现代化的毛玻璃背景
@@ -41,6 +26,7 @@
 ## 依赖
 - [Font Awesome 6](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css)（图标）
 - [Google Fonts](https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap)（思源宋体）
+- [yiyan api](https://developer.hitokoto.cn/)（一言api）
 ## 许可证
 GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 ## 贡献
