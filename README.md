@@ -31,7 +31,6 @@
 8. 添加还有其他我没想到的功能
 ## 预览
 ![PC主页截图](https://blog.gardenwalk.moe/wp-content/uploads/1772169788-pcdemo.png)
-![移动端主页截图](https://blog.gardenwalk.moe/wp-content/uploads/1772169785-mobiledemo.jpg)
 ## 自定义部分
 在每个文件的注释均有描述，请自行阅读
 ## 依赖
