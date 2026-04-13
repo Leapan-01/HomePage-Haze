@@ -1,5 +1,5 @@
 # HomePage-Haze（微岚主页）
-一个简洁、美观、具有特色功能的纯静态个人主页。使用HTML+CSS+JavaScript开发。
+一个简洁、美观、具有特色功能的纯静态个人主页。使用 HTML+CSS+JavaScript 开发。
 ### 阅读代码前提示
 在本项目中，可能会有以下现象，包括但不限于：
 
@@ -10,7 +10,7 @@
 
 等诸多情况。
 
-当然，如果有任何建议或指正，也欢迎提Issue或PR，我会虚心接受（但可能改不动或者根本没时间改o_o ....）。
+当然，如果有任何建议或指正，也欢迎提 Issue 或 PR，我会虚心接受（但可能改不动或者根本没时间改o_o ....）。
 ## 特色功能
 1. 方块加载动画以及遮罩层拉扯效果
 2. 现代化的毛玻璃背景
@@ -23,7 +23,7 @@
 - 当页面处于加载的时候，左右遮罩层中间可能会有一道难以察觉的细线
 - 在使用部分移动端设备访问时，底部版权提示信息可能会与主卡片重叠
 ## 远景规划
-1. 修复已知Bug
+1. 修复已知 Bug
 2. 鼠标样式修改
 3. 使用相同的风格添加“友链”等其他子页面
 4. 添加后端
@@ -45,7 +45,7 @@ GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 ## 贡献
 如果你觉得哪里可以改进，欢迎提 Issue 或 PR，或者直接使用邮箱联系我：lp-gardenwalk(at)outlook(dot)com
 ## Thanks
-- 开屏遮罩动画参照 https://github.com/imsyy/home 的设计
+- 开屏遮罩动画参照 https://github.com/imsyy/home （ https://www.imsyy.top/ ）的设计
 - 主卡片参照 https://github.com/StarnekOvO/myself-ghpage （ https://starneko.com/ ）的设计
 ## 补充
 点点Star谢谢喵(/▽＼)
