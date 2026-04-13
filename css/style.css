@@ -369,8 +369,6 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
 .yiyan{
     font-style: italic;
     color: #B8A37D;
-    white-space: nowrap;
-
 }
 
 .uptime-line {
