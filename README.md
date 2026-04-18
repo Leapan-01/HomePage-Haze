@@ -37,7 +37,7 @@
 ## 自定义部分
 在每个文件的注释均有描述，请自行阅读
 ## 依赖
-- [Font Awesome 6](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css)（图标）
+- [Font Awesome 6](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css)（图标）
 - [Google Fonts](https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap)（思源宋体）
 - [yiyan api](https://developer.hitokoto.cn/)（一言api）
 ## 许可证
@@ -47,6 +47,7 @@ GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 ## Thanks
 - 开屏遮罩动画参照 https://github.com/imsyy/home （ https://www.imsyy.top/ ）的设计
 - 主卡片参照 https://github.com/StarnekOvO/myself-ghpage （ https://starneko.com/ ）的设计
+- Font Awesome 6 CDN 由 https://www.zstatic.net/ 提供
 ## 补充
 点点Star谢谢喵(/▽＼)
 
