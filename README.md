@@ -50,5 +50,6 @@ GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 - Font Awesome 6 CDN 由 https://www.zstatic.net/ 提供
 ## 补充
 点点Star谢谢喵(/▽＼)
+我是笨蛋喵
 
 
