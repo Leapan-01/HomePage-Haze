@@ -215,13 +215,13 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
 
 .bar{
     width: 240px;                    
-    background-color: rgba(255, 255, 255, 1); 
+    background-color: rgba(255, 255, 255, 0.8); 
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 40px;             
     padding: 8px 16px;
     margin: 10px auto;               
     backdrop-filter: blur(4px);      
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 2px rgb(255, 255, 255);
     text-align: center;                                  
     transition: opacity 0.3s ease;     
 }
