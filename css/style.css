@@ -7,7 +7,8 @@ body {
     justify-content: center; 
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth; 
-    padding-bottom: 80px;
+    flex-direction: column;    
+    min-height: 100dvh;        
 }
 
 .bg {
@@ -20,7 +21,6 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     z-index: -1;
     transform: scale(1);
     transition: transform 1.2s ease-out;
@@ -146,6 +146,8 @@ body {
 
 /* 主卡片 */
 .main-card {
+    margin: auto 0;           
+    touch-action: pan-y;       
     display: flex;
     flex-direction: column;      
     align-items: center;
@@ -172,7 +174,7 @@ body {
     position: absolute;
     top: -50px;       
     left: 50%;
-    transform: translateX(-50%);/* 偏移向上5成 */
+    transform: translateX(-50%);
     transition: transform 1.0s ease;
     width: 100px;
     height: 100px;
@@ -187,7 +189,7 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
 }
 
 .name{
-    font-family:Noto serif sc;
+    font-family: "Noto Serif SC";
     margin: 0px;
     font-size: 26px;
     user-select: none; 
@@ -306,18 +308,17 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
     font-size: 15px;
     font-weight:bolder;
     letter-spacing: 0.5px;
-    font-family:Noto serif sc;
+    font-family: "Noto Serif SC";
 }
 
 /* 版权区域部分 */
 .copyright {
-    position: fixed;
-    bottom: 12px;
-    left: 0;
+    position: static;          
+    margin: 12px 0;
     width: 100%;
     text-align: center;
     font-size: 13px;
-    font-family:Noto serif sc;
+    font-family: "Noto Serif SC";
     color: rgba(60, 60, 60, 0.4);
     pointer-events: none;      
     z-index: 100;
@@ -389,4 +390,23 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
     padding: 2px 10px;
     border-radius: 40px;
     backdrop-filter: blur(2px);
+}
+
+/* 主卡片轻微的弹簧效果（仿物理） */
+.main-card {
+    scale: 1;
+    transition: scale 0.42s cubic-bezier(0.34, 1.56, 0.64, 1); 
+}
+
+.main-card:active {
+    scale: 0.985; 
+    transition: scale 0.12s ease-out;
+}
+
+/* 锁PC滚动 */
+@media (hover: hover) and (pointer: fine) and (min-height: 500px) {
+    html, body {
+        overflow: hidden;
+        overscroll-behavior: none;
+    }
 }
