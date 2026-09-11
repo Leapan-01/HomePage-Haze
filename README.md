@@ -21,7 +21,7 @@
 7. 页脚时间统计功能以及每日一言
 ## 已知Bug
 - 当页面处于加载的时候，左右遮罩层中间可能会有一道难以察觉的细线
-- 在使用部分移动端设备访问时，底部版权提示信息可能会与主卡片重叠
+- 在使用部分移动端设备访问时，底部版权提示信息可能会与主卡片重叠（已完成！q(≧▽≦q)）
 ## 远景规划
 1. 修复已知 Bug
 2. 鼠标样式修改
@@ -45,6 +45,7 @@ GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 ## Thanks
 - 开屏遮罩动画参照 https://github.com/imsyy/home （ https://www.imsyy.top/ ）的设计
 - 主卡片参照 https://github.com/StarnekOvO/myself-ghpage （ https://starneko.com/ ）的设计
+- 感谢 [oldplum](https://github.com/oldplum "oldplum") 第一个 Fork 了我的项目，使我有信心继续坚持下来
 - Font Awesome 6 CDN 由 https://www.zstatic.net/ 提供
 ## 补充
 点点Star谢谢喵(/▽＼)
