@@ -45,7 +45,7 @@ GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 ## Thanks
 - 开屏遮罩动画参照 https://github.com/imsyy/home （ https://www.imsyy.top/ ）的设计
 - 主卡片参照 https://github.com/StarnekOvO/myself-ghpage （ https://starneko.com/ ）的设计
-- 感谢 [oldplum](https://github.com/oldplum "oldplum") 第一个 Fork 了我的项目，使我有信心继续坚持下来
+- 感谢 [oldplum](https://github.com/oldplum "oldplum") 第一个 Fork 并使用了我的项目，使我有信心继续坚持下来
 - Font Awesome 6 CDN 由 https://www.zstatic.net/ 提供
 ## 补充
 点点Star谢谢喵(/▽＼)
