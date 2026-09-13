@@ -181,9 +181,7 @@ window.$config = {
                     const b = cfg.footer.backupSite;
                     links.push(`<a class="back-up-blog-link" href="${b.url}" target="_blank">${b.text}</a>`);
                 }
-                if (links.length > 0) {
-                    copyrightLinks.innerHTML = links.join('\n            <span class="separator">|</span>\n            ');
-                }
+copyrightLinks.innerHTML = links.join('\n            <span class="separator">|</span>\n            ');
             }
 
             if (cfg.footer.copyright) {
