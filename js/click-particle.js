@@ -13,10 +13,14 @@
 
         const ctx = canvas.getContext('2d');
         let particles = [];
-        let ripples = [];          
+        let ripples = [];
+        let rafId = null;   
+
         function resizeCanvas() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
+            const dpr = window.devicePixelRatio || 1;
+            canvas.width = Math.round(window.innerWidth * dpr);
+            canvas.height = Math.round(window.innerHeight * dpr);
+            ctx.setTransform(dpr, 0, 0, dpr, 0, 0); 
         }
         window.addEventListener('resize', resizeCanvas);
         resizeCanvas();
@@ -47,10 +51,18 @@
                     color: `hsl(${Math.random() * 40 + 180}, 80%, 70%)` 
                 });
             }
+            start();
         });
 
+        function start() {
+            if (rafId === null) {
+                rafId = requestAnimationFrame(animate);
+            }
+        }
+
         function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
+            ctx.globalAlpha = 1; 
             //涟漪ani
             for (let i = ripples.length - 1; i >= 0; i--) {
                 const r = ripples[i];
@@ -87,8 +99,11 @@
                 ctx.fill();
             }
 
-            requestAnimationFrame(animate);
+            if (particles.length || ripples.length) {
+                rafId = requestAnimationFrame(animate);
+            } else {
+                rafId = null;
+            }
         }
-        animate();
     });
 })();

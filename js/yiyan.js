@@ -1,5 +1,10 @@
 (async function () {
-    const el = document.getElementById("yiyan");
+    let el = document.getElementById("yiyan");
+    if (!el) {
+        await new Promise(resolve => document.addEventListener("DOMContentLoaded", resolve, { once: true }));
+        el = document.getElementById("yiyan");
+        if (!el) return;
+    }
     const api = "https://v1.hitokoto.cn";
     const REPEAT_MS = 3000;
     let retries = 0;

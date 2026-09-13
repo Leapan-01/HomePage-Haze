@@ -12,7 +12,7 @@ window.$config = {
     // --------------------------------------------------------------------------
     site: {
         // 浏览器标签页标题
-        title: "Leapan's HomePage——数字田园的悠然漫步",
+        title: "Leapan's HomePage—数字田园的悠然漫步",
 
         // 站点简介（用于搜索引擎 SEO 与网页元信息描述）
         description: "Leapan's HomePage",
@@ -37,7 +37,7 @@ window.$config = {
         // 开屏加载遮罩中的大标题（不填则默认使用 "{name}'s HomePage"）
         loadingTitle: "Leapan's HomePage",
 
-        // 副标题 / 打字机格言，开屏后会自动播放打字机动效
+        // 副标题 / 打字机格言，开屏后会自动播放打字机动效（最好不要超过12个全角字符）
         slogan: "采菊东篱下，悠然见南山。",
 
         // 社交媒体图标列表
@@ -79,7 +79,7 @@ window.$config = {
             title: "异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！"
         },
 
-        // 萌ICP / 工业ICP 备案信息
+        // 萌ICP 备案信息
         icp: {
             enable: true, // 是否开启此项展示（true: 开启, false: 关闭）
             text: "萌ICP备20243222号",
