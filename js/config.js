@@ -18,10 +18,10 @@ window.$config = {
         description: "Leapan's HomePage",
 
         // 网站图标（Favicon），显示在浏览器标签页标题旁边，支持相对路径或图片外链
-        favicon: "https://files.seeusercontent.com/2026/04/18/jP7s/icon.png",
+        favicon: "https://files.seeusercontent.com/2026/09/27/A8ne/Head.webp",
 
         // 全屏背景壁纸图片链接，支持本地相对路径或外链图床
-        background: "https://files.seeusercontent.com/2026/04/12/9Fyq/backgroundhaze.png"
+        background: "https://files.seeusercontent.com/2026/09/27/M2xq/backgroundhaze.webp"
     },
 
     // --------------------------------------------------------------------------
@@ -29,7 +29,7 @@ window.$config = {
     // --------------------------------------------------------------------------
     profile: {
         // 头像图片链接，推荐正方形图片
-        avatar: "https://files.seeusercontent.com/2026/09/12/q6Qe/1Avatar.png",
+        avatar: "https://files.seeusercontent.com/2026/09/27/A8ne/Head.webp",
 
         // 站长名称 / 昵称，显示在主卡片头像下方
         name: "Leapan",
