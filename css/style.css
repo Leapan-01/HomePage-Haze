@@ -349,7 +349,7 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
 .copyright-links .travel-link {
     display: flex;
     align-items: center;
-    color: #5C4300;
+    color: #5B4700;
     text-decoration: none;
 }
 
@@ -360,23 +360,23 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
 }
 
 .copyright-links .separator {
-    color: #5C4300;
+    color: #5B4700;
     margin: 0 0.3em;
 }
 
 .copyright-links .icp-link {
-    color: #5C4300;
+    color: #5B4700;
     text-decoration: none;
 }
 
 .copyright-links .back-up-blog-link {
-    color: #5C4300;
+    color: #5B4700;
     text-decoration: none;
 }
 
 .yiyan{
     font-style: italic;
-    color: #55432C;
+    color: #54462D;
 }
 
 .uptime-line {
