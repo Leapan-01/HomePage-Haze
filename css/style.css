@@ -321,7 +321,7 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
     text-align: center;
     font-size: 13px;
     font-family: "Noto Serif SC";
-    color: rgba(60, 60, 60, 0.4);
+    color: #3C3C3C;
     pointer-events: none;      
     z-index: 100;
     user-select: none;
@@ -349,7 +349,7 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
 .copyright-links .travel-link {
     display: flex;
     align-items: center;
-    color: #E8B600;              
+    color: #5B4700;
     text-decoration: none;
 }
 
@@ -360,23 +360,23 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
 }
 
 .copyright-links .separator {
-    color: #E8B600;
+    color: #5B4700;
     margin: 0 0.3em;
 }
 
 .copyright-links .icp-link {
-    color: #E8B600;
+    color: #5B4700;
     text-decoration: none;
 }
 
 .copyright-links .back-up-blog-link {
-    color: #E8B600;
+    color: #5B4700;
     text-decoration: none;
 }
 
 .yiyan{
     font-style: italic;
-    color: #B8A37D;
+    color: #54462D;
 }
 
 .uptime-line {
