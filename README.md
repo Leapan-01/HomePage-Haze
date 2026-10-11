@@ -56,6 +56,7 @@ GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 - 开屏遮罩动画（Tilt-Animation.js）参照 https://github.com/imsyy/home （ https://www.imsyy.top/ ）的设计
 - MainCard 参照 https://github.com/StarnekOvO/myself-ghpage （ https://starneko.com/ ）的设计
 - 感谢 [oldplum](https://github.com/oldplum "oldplum") 对本项目的许多支持与贡献
+- 感谢 [yuxino](https://github.com/yuxino "yuxino")  大大对本项目的许多支持与贡献
 - Font Awesome 6 CDN 由 https://www.zstatic.net/ 提供
 ## 补充
 点点Star谢谢喵(/▽＼)
