@@ -41,13 +41,13 @@
                     position: absolute;
                     z-index: -1;
                     pointer-events: none;
-                    inset: -30px -25px -34px; //光晕
+                    inset: -30px -25px -34px; /*光晕*/
                     border-radius: 38px;
                     background: radial-gradient(ellipse at 50% 48%,
                         rgba(103, 202, 255, .34) 0%,
                         rgba(211, 245, 255, .23) 37%,
                         rgba(255, 240, 183, .16) 58%,
-                        rgba(255, 255, 255, 0) 78%);//淡出
+                        rgba(255, 255, 255, 0) 78%); /*淡出*/
                     filter: blur(17px);
                     opacity: var(--haze-glow-opacity, ${GLOW_REST});
                     transform: scale(var(--haze-glow-scale, 1));
