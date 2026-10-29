@@ -61,6 +61,8 @@ GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 - 感谢 [yuxino](https://github.com/yuxino "yuxino")  大大对本项目的许多支持与贡献
 - Font Awesome 6 CDN 由 https://www.zstatic.net/ 提供
 ## 补充
+背景图片是在 https://bggenerator.com/ 生成的哦
+
 点点Star谢谢喵(/▽＼)
 <p>咱是笨蛋喵
 
