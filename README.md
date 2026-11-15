@@ -58,7 +58,7 @@ GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 如果你觉得哪里可以改进，欢迎提 Issue 或 PR，或者直接使用邮箱联系我：lp-gardenwalk(at)outlook(dot)com
 ## Thanks
 - 开屏遮罩动画（loading.js）参照 https://github.com/imsyy/home （ https://www.imsyy.top/ ）的设计
-- MainCard（.maincard）参照 https://github.com/StarnekOvO/myself-ghpage （ https://starneko.com/ ）的设计
+- MainCard（.main-card）参照 https://github.com/StarnekOvO/myself-ghpage （ https://starneko.com/ ）的设计
 - 感谢 [oldplum](https://github.com/oldplum "oldplum") 对本项目的许多支持与贡献
 - 感谢 [yuxino](https://github.com/yuxino "yuxino")  大大对本项目的许多支持与贡献
 - Font Awesome 6 CDN 由 https://www.zstatic.net/ 提供
