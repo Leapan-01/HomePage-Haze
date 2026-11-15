@@ -22,6 +22,7 @@
 8. 统一独立配置文件，开箱即用轻松自定义
 9. 背景发光浮尘效果
 10. 主卡片的呼吸“灯”效果和随Sin波浮动效果
+11. 主卡片在无焦点时轻微浮动效果
 ## 已知Bug
 - 当页面处于加载的时候，左右遮罩层中间可能会有一道难以察觉的细线
 - 在使用部分移动端设备访问时，底部版权提示信息可能会与主卡片重叠（已完成！q(≧▽≦q)）
@@ -55,15 +56,14 @@ GPL-3.0 license © [Leapan](https://github.com/Leapan-01)
 ## 贡献
 如果你觉得哪里可以改进，欢迎提 Issue 或 PR，或者直接使用邮箱联系我：lp-gardenwalk(at)outlook(dot)com
 ## Thanks
-- 开屏遮罩动画（Tilt-Animation.js）参照 https://github.com/imsyy/home （ https://www.imsyy.top/ ）的设计
-- MainCard 参照 https://github.com/StarnekOvO/myself-ghpage （ https://starneko.com/ ）的设计
+- 开屏遮罩动画（loading.js）参照 https://github.com/imsyy/home （ https://www.imsyy.top/ ）的设计
+- MainCard（.maincard）参照 https://github.com/StarnekOvO/myself-ghpage （ https://starneko.com/ ）的设计
 - 感谢 [oldplum](https://github.com/oldplum "oldplum") 对本项目的许多支持与贡献
 - 感谢 [yuxino](https://github.com/yuxino "yuxino")  大大对本项目的许多支持与贡献
 - Font Awesome 6 CDN 由 https://www.zstatic.net/ 提供
 ## 补充
 背景图片是在 https://bggenerator.com/ 生成的哦
-
-点点Star谢谢喵(/▽＼)
+<p>点点Star谢谢喵(/▽＼)
 <p>咱是笨蛋喵
 
 
