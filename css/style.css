@@ -17,7 +17,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    /* 背景图不再写死在这里，统一由 js/config.js 的 site.background 注入 */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -179,7 +178,6 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    /* 头像不再写死在这里，统一由 js/config.js 的 profile.avatar 注入 */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -221,6 +219,7 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
     width: 240px;                    
     background-color: rgba(255, 255, 255, 0.8); 
     border: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: none;
     border-radius: 40px;             
     padding: 8px 16px;
     margin: 10px auto;               
@@ -394,7 +393,7 @@ transform: translateX(-50%) rotate(360deg);/* 转起来~ */
     backdrop-filter: blur(2px);
 }
 
-/* 主卡片轻微的弹簧效果（仿物理） */
+/* 主卡片轻微的弹簧效果 */
 .main-card {
     scale: 1;
     transition: scale 0.42s cubic-bezier(0.34, 1.56, 0.64, 1); 
