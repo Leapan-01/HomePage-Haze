@@ -19,14 +19,14 @@
 9. 背景发光浮尘效果
 10. 主卡片的呼吸“灯”效果和随多重混合 Sin 波浮动效果
 11. 主卡片在无焦点时轻微浮动效果
-12. 鼠标特色小圆点样式
+12. 指针特色小圆点样式
 
 ## 预览图
 <a href="https://files.seeusercontent.com/2026/11/15/u8gT/pc-preview-haze.png" target="_blank"><img src="https://files.seeusercontent.com/2026/11/15/u8gT/pc-preview-haze.png" alt="pc-preview-haze.png" title="pc-preview-haze.png"></a>
 
 ## 已知问题与兼容性
 - 当页面处于加载的时候，左右遮罩层中间可能会有一道难以察觉的细线
-- 在使用部分移动端设备访问时，底部版权提示信息可能会与主卡片重叠（已完成！q(≧▽≦q)）
+- 在使用部分 Edge 浏览器访问时，自定义指针左侧可能存在闪烁光标， Chrome 及 Firefox 无此问题
 
 ## 开发计划
 1. 修复已知 Bug 
